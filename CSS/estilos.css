@@ -3,8 +3,8 @@
     background-color: bisque;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     max-width: 80%;
-    margin: 0 auto;
-    padding: 2% 10%;
+    padding: 3%; 
+    margin: 0% auto;
     border: none;
 }
 
@@ -12,7 +12,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    max-width: 100%;
 }
 
 /* Estilos para el header */
@@ -74,8 +74,8 @@ nav ul li a {
 .caja {
     background-color: #ffffff; 
     border-radius: 10%; 
-    padding: 5%; 
-    margin: 2% auto; 
+    margin: 0 auto;
+    padding: 2% 10%; 
     max-width: 50%;
 }
 
@@ -83,7 +83,7 @@ nav ul li a {
     display: grid;
     grid-template-columns: 55% 55%; 
     grid-gap: 2%; 
-    margin: 2%; 
+    margin: 2% auto; 
 }
 
 /* Media Queries para responsive design */
